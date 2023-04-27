@@ -1,7 +1,19 @@
 module ACTPolLite
 
 using Artifacts
+using LoopVectorization
 using NPZ
+
+import Base.@kwdef
+
+@kwdef  struct WindowFunction
+    D_TT::Matrix
+    D_TE::Matrix
+    D_EE::Matrix
+    W_TT::Matrix
+    W_TE::Matrix
+    W_EE::Matrix
+end
 
 function __init__()
 
