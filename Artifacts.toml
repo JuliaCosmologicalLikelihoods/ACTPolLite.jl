@@ -1,0 +1,6 @@
+[DR4_data]
+git-tree-sha1 = "dbd6edd716ea4fc289dd8141770b32c29413030e"
+
+    [[DR4_data.download]]
+    sha256 = "90566e2e9775a1ac36035e710ddf3db7de449fb67d93dea017f66e2802d92bd5"
+    url = "https://gist.github.com/marcobonici/58ffe686a6d702ec4f993b455adde94d/raw/dbd6edd716ea4fc289dd8141770b32c29413030e.tar.gz"
