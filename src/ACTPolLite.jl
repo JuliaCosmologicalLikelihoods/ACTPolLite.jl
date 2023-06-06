@@ -25,12 +25,12 @@ function __init__()
     bmax = 52 #hardcoded numbers
     lmax_win = 4999
 
-    win_func_d_tt = win_func_d[2 * bmax + 1: 3  * bmax, 1:lmax_win]
-    win_func_d_te = win_func_d[6 * bmax + 1: 7  * bmax, 1:lmax_win]
-    win_func_d_ee = win_func_d[9 * bmax + 1: 10 * bmax, 1:lmax_win]
-    win_func_w_tt = win_func_w[2 * bmax + 1: 3  * bmax, 1:lmax_win]
-    win_func_w_te = win_func_w[6 * bmax + 1: 7  * bmax, 1:lmax_win]
-    win_func_w_ee = win_func_w[9 * bmax + 1: 10 * bmax, 1:lmax_win]
+    win_func_d_tt = win_func_d[2 * bmax + 1: 3  * bmax, 2:lmax_win]
+    win_func_d_te = win_func_d[6 * bmax + 1: 7  * bmax, 2:lmax_win]
+    win_func_d_ee = win_func_d[9 * bmax + 1: 10 * bmax, 2:lmax_win]
+    win_func_w_tt = win_func_w[2 * bmax + 1: 3  * bmax, 2:lmax_win]
+    win_func_w_te = win_func_w[6 * bmax + 1: 7  * bmax, 2:lmax_win]
+    win_func_w_ee = win_func_w[9 * bmax + 1: 10 * bmax, 2:lmax_win]
 
     global WF =  WindowFunction(D_TT = win_func_d_tt,
                                 D_TE = win_func_d_te,
